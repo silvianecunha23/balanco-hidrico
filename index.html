@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <title>ETo</title>
+</head>
+<!------------------------------------------------------------->
+
+<!-- Corpo do site -->
+<body style="margin-bottom: 200px;padding: 16px;">
+
+  <!-- Barra de navegação -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+
+        <!-- Logo -->
+        <a href="" class="navbar-brand">Calculadora de ETo</a>
+
+        <!-- Menu -->
+        <button class="navbar-toggler" data-toggle="collapse" 
+        data-target="#navegacao">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navegação -->
+        <div class="collapse navbar-collapse" id="navegacao">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="../Site ETo/index.html" class="nav-link">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="../Site ETo/matopiba.html" class="nav-link">MATOPIBA</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="../Site ETo/pantanal.html" class="nav-link">Pantanal</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <br>
+    <br>
+
+    <!-- Tipo de dado -->
+    
+    <h4>Tipo de Dado</h4>
+    <select id="lista1">
+        <option value="h"> Horário </option>
+        <option value="d"> Diário </option>
+        <option value="m"> Mensal </option>
+    </select>
+    <!-- Tipo de dado -->
+    
+    <br>
+    <br>
+
+     <!-- Estações -->
+    <h4>MATOPIBA</h4>
+
+    <input type="radio" name="estacao" value="1"> Araguaína - TO <br>
+    <input type="radio" name="estacao" value="2"> Balsas - MA<br>
+    <input type="radio" name="estacao" value="3"> Barreiras - BA<br>
+    <input type="radio" name="estacao" value="4"> Bom Jesus - PI<br>
+
+    <br>
+
+    <h4>Pantanal</h4>
+
+    <input type="radio" name="estacao" value="5"> Nhumirim - MS<br>
+    <!-- Estações -->
+
+    <br>
+
+    <!-- Calendário-->
+    <form>
+        <div>
+            <h4>Data de Início</h4> 
+            <input type="date" id="di" name="datainicial" min="2006-08-03" max="" required>
+            <span class="validity"></span>
+        </div>
+    </form>
+
+    <br>
+    
+    <form>
+        <div>
+            <h4>Data de Fim</h4> 
+            <input type="date" id="df" name="datafinal" min="2006-08-03" max="" required>
+            <span class="validity"></span>
+        </div>
+    </form>
+    <!-- Calendário-->
+
+
+    <br>
+
+
+
+
+
+    <br>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+  </body>
+</html>
